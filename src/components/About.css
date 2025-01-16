@@ -1,0 +1,72 @@
+.about {
+    background-color: #fff;
+    padding: 2rem;
+    color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+  }
+  
+  .aboutContent {
+    position: relative;
+  }
+  
+  .aboutPortrait {
+    float: left;
+    margin: 0 1rem 1rem 0;
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .workHistory {
+    background: linear-gradient(135deg, #ff5722, #ff9800);
+    opacity: 0.7;
+    z-index: 0;
+    transform: rotate(1deg);
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 100%;
+  }
+  
+  .workItem {
+    margin-bottom: 1rem;
+  }
+  
+  .divider {
+    border-bottom: 2px solid orange;
+    margin: 1.5rem 0;
+  }
+  
+  .highlight {
+    color: orange;
+    font-weight: bold;
+    background-color: rgba(255, 165, 0, 0.2);
+    padding: 0 0.2rem;
+    border-radius: 3px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .highlight:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Media Query for Smaller Screens */
+  @media (max-width: 768px) {
+    .about {
+      grid-template-columns: 1fr; /* Switches to a single column layout */
+      gap: 1.5rem; /* Adjusts spacing between items */
+    }
+  
+    .aboutPortrait {
+      float: none; /* Resets the float for smaller screens */
+      display: block; /* Centers the image */
+      margin: 0 auto 1rem auto; /* Centers the image with some margin */
+      max-width: 150px; /* Reduces the image size further for small screens */
+    }
+  }
+  

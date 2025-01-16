@@ -1,0 +1,41 @@
+/* Services Section */
+.services {
+
+    background-color: #f9f9f9; /* Neutral background for contrast */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw; /* Relative padding for responsiveness */
+    color: #333; /* Matches readable contrast for text */
+  }
+  
+  .services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); /* Responsive grid for cards */
+    gap: 2vw;
+    width: 100%;
+    max-width: 90%; /* Leaves margin on the sides */
+  }
+  
+  /* Individual Service Item */
+  .service-item {
+    background-color: #fff;
+    border-radius: 0.5rem; /* Subtle rounded corners */
+    box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth interactions */
+  }
+  
+  .service-item:hover {
+    transform: translateY(-1rem); /* Hover effect for lift */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  .service-icon {
+    font-size: 3rem; /* Large icons that scale naturally */
+    color: #ff5722; /* Highlight color for icons */
+    margin-bottom: 2vh;
+  }
+  

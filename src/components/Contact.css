@@ -1,0 +1,29 @@
+.contact {
+  background-color: #fff;
+  min-height: 90vh;
+  display: grid;
+  align-items: center;
+  padding: 2rem;
+  overflow: hidden;
+  color: #000;
+
+  }
+
+  .contact-info, .business-hours {
+    margin-top: 1.5rem;
+  }
+
+  .contactFrame {
+    background: linear-gradient(135deg, #ff5722, #ff9800);
+    opacity: 0.9;
+    z-index: 0;
+    transform: rotate(1deg);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  

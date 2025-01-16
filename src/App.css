@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5; /* Improves readability */
+  font-size: 16px; /* Sets a base font size for scaling */
+  
+}
+
+.App {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 10fr 0.5fr;
+  overflow: hidden;
+  align-items: start;
+  justify-content: center;
+  font-size: calc(0.5rem + 1vw); /* Responsive font scaling */
+}
+
+/* Paragraphs */
+p {
+  font-size: 1rem; /* Base font size for paragraphs */
+  font-weight: 400;
+  margin: 1rem 0;
+  z-index: 1;
+}
+
+/* Global Heading Styles */
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem); /* Scales between 2.5rem and 4rem */
+  font-weight: 700;
+  margin: 0;
+  z-index: 1;
+}
+
+h2 { 
+  font-size: clamp(2rem, 4vw, 3rem); /* Scales between 2rem and 3rem */
+  font-weight: 600;
+  margin-top: 1rem;
+  z-index: 1;
+}
+
+h3 { 
+  font-size: clamp(1.5rem, 3vw, 2.5rem); /* Scales between 1.5rem and 2.5rem */
+  font-weight: 500;
+  margin-top: 1rem;
+  z-index: 1;
+}
+
+h4 { 
+  font-size: clamp(1.2rem, 2.5vw, 2rem); /* Scales between 1.2rem and 2rem */
+  font-weight: 400;
+  margin-top: 1rem;
+  z-index: 1;
+}
+
+
+/* Responsive Typography for Small Screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Slightly smaller base font size for small devices */
+  }
+
+  h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+  }
+
+  h2 {
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+  }
+
+  h3 {
+    font-size: clamp(1.4rem, 3vw, 2rem);
+  }
+
+  h4 {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+  }
+}

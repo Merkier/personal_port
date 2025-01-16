@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "title": "Website Redesign for NovaCorp",
+      "description": "A sleek and modern redesign for NovaCorp's corporate website.",
+      "details": "We transformed NovaCorp's outdated website into a sleek, modern platform that showcases their services, team, and achievements. The redesign features interactive charts, a responsive design, and enhanced navigation for an improved user experience. We transformed NovaCorp's outdated website into a sleek, modern platform that showcases their services, team, and achievements. The redesign features interactive charts, a responsive design, and enhanced navigation for an improved user experience.",
+      "image": "https://picsum.photos/900/300?random=1"
+    },
+    {
+      "id": 2,
+      "title": "Galaxy Quest: Web-Based Space Adventure Game",
+      "description": "An immersive, browser-based space exploration game.",
+      "details": "Galaxy Quest is a web-based game where players explore the galaxy, mine resources, and build their own space empire. The game features dynamic graphics, real-time multiplayer interaction, and a captivating storyline.",
+      "image": "https://picsum.photos/600/300?random=2"
+    },
+    {
+      "id": 3,
+      "title": "E-Commerce Platform for FreshMart",
+      "description": "A user-friendly online store for FreshMart’s organic products.",
+      "details": "We built an intuitive e-commerce platform for FreshMart, offering seamless navigation, secure payment options, and a personalized shopping experience. Features include a recipe finder, subscription boxes, and a rewards program for loyal customers.",
+      "image": "https://picsum.photos/600/300?random=3"
+    },
+    {
+      "id": 4,
+      "title": "Interactive Portfolio for ArtByAva",
+      "description": "A stunning portfolio website for a digital artist.",
+      "details": "ArtByAva needed a platform to showcase her digital art and connect with potential clients. We created a visually stunning portfolio site with a gallery, blog, and contact form, featuring a dark mode option and fluid animations.",
+      "image": "https://picsum.photos/600/300?random=4"
+    },
+    {
+      "id": 5,
+      "title": "SEO and Analytics Dashboard for GreenGrow",
+      "description": "Boosting online visibility for an eco-friendly startup.",
+      "details": "Our SEO optimization and analytics tools helped GreenGrow achieve higher search engine rankings. The project included keyword research, site performance improvements, and the integration of a real-time analytics dashboard.",
+      "image": "https://picsum.photos/600/300?random=5"
+    },
+    {
+      "id": 6,
+      "title": "Pixel Runner: Endless Runner Web Game",
+      "description": "A retro-style endless runner game for all ages.",
+      "details": "Pixel Runner is a fun, fast-paced endless runner game inspired by retro 8-bit designs. Players navigate through procedurally generated levels, collect power-ups, and compete for high scores. The game is fully responsive and optimized for both desktop and mobile browsers.",
+      "image": "https://picsum.photos/600/300?random=6"
+    }
+  ]
+  

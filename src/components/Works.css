@@ -1,0 +1,116 @@
+.serviceExpand img {
+    min-height: 100%;
+    margin-top: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* General Styling for Works Section */
+.services {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr; /* Stacks items on smaller screens */
+    gap: 2rem; /* Space between service items */
+    background-color: #fff;
+    color: #000;
+}
+
+/* Individual Service Item */
+.serviceItem {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+/* Header Section */
+.serviceHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.serviceHeader button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.serviceHeader button:hover {
+    background-color: darkorange;
+}
+
+
+/* Expanded Section */
+.serviceExpand {
+    display: block; /* Use block layout for natural flow */
+    margin-top: 1rem;
+}
+
+.serviceExpand img {
+    float: left; /* Float the image to the left */
+    margin-right: 1rem; /* Add space between the image and text */
+    max-width:60%; /* Ensure the image doesn't take up too much space */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for emphasis */
+}
+
+.serviceExpand p {
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #000;
+    margin: 0; /* Keep a clean, consistent look */
+    line-height: 1.5; /* Add spacing between lines for readability */
+}
+
+
+
+
+/* Responsive Styling for Smaller Screens */
+@media (max-width: 768px) {
+    .services {
+        grid-template-columns: 1fr; /* Single column layout for smaller screens */
+    }
+
+    .serviceHeader {
+        flex-direction: column; /* Stack h3 and button vertically */
+        align-items: flex-start; /* Align to the left */
+        gap: 1rem; /* Add spacing between h3 and button */
+    }
+
+    .serviceHeader h3 {
+        font-size: 1.8rem;
+    }
+
+    .serviceHeader button {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+    .serviceExpand {
+        display: flex; /* Return to flexbox for stacking */
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    @media (max-width: 768px) {
+        .serviceExpand img {
+            float: none; /* Remove the float */
+            display: block; /* Make it a block-level element */
+            margin: 1rem auto; /* Center the image */
+            max-width: 100%; /* Ensure it fits within the screen */
+        }
+    
+        .serviceExpand p {
+            text-align: justify; /* Keep text justified for a clean look */
+        }
+    }
+    
+}

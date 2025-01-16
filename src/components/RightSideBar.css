@@ -1,0 +1,50 @@
+/* Remove dots from ul/li */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Right Sidebar Container */
+.rightimagelinks {
+  background-color: #fff;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+/* Links Container */
+.imagelinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem; /* Space between icons */
+}
+
+/* Individual List Items */
+.imagelinks li {
+  position: relative;
+  display: inline-block;
+}
+
+/* Link Styling */
+.imagelinks li a {
+  display: inline-block;
+  transition: transform 0.3s ease; /* Smooth scaling on hover */
+}
+
+/* Image Styling */
+.imagelinks li a img {
+  max-width: 32px; /* Default size of the icon */
+  max-height: 32px;
+  transition: transform 0.3s ease; /* Smooth scaling on hover */
+}
+
+/* Hover Effect */
+.imagelinks li a:hover img {
+  transform: scale(1.2); /* Scale up slightly on hover */
+}
